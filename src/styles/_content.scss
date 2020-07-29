@@ -1,0 +1,41 @@
+.content {
+  &__search {
+    position: relative;
+    z-index: 1;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+  }
+
+  &__search--img {
+    margin-left: 18px;
+  }
+
+  &__search--text {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #252f48;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    margin-left: 19px;
+  }
+
+  &__border {
+    width: 552px;
+    border: 1px solid #f5f6f9;
+  }
+
+  &__hidden {
+    margin-top: -11px;
+    text-align: center;
+    font-family: "Exo 2", serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.5px;
+    color: #caced9;
+  }
+}

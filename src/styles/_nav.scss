@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 944px;
+  height: 61px;
+  background: #fff;
+
+  &__items,
+  &__account {
+    display: flex;
+    align-items: center;
+  }
+
+  &__items--home,
+  &__items--network {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.68px;
+    color: #252f48;
+  }
+
+  &__items--home {
+    margin-left: 40px;
+  }
+
+  &__items--arrow,
+  &__items--network {
+    margin-left: 12px;
+  }
+
+  &__account--dropdown-arrow {
+    margin-left: 7.5px;
+    margin-right: 40px;
+  }
+
+  &__account--name {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.28px;
+    color: #252f48;
+  }
+}

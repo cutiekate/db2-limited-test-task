@@ -7,7 +7,304 @@
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
+    <article class="window">
+      <aside class="aside">
+        <div class="aside__logo">
+          <a href="#">
+            <img
+            class="aside__logo-img"
+            src="./images/logo.svg"
+            alt="logo"
+            >
+          </a>
+        </div>
+        <div class="aside__toolbar toolbar">
+          <div class="toolbar__calendar">
+            <a href="#">
+              <img
+              class="toolbar__calendar--img"
+              src="images/toolbar/calendar.svg"
+              alt="calendar"
+              >
+              <img
+              class="toolbar__calendar--notification"
+              src="images/toolbar/notification.svg"
+              alt="notification-img"
+              >
+            </a>
+          </div>
+          <div class="toolbar__profile">
+            <a href="#">
+              <img
+              src="images/toolbar/profile.svg"
+              alt="profile-img"
+              >
+            </a>
+          </div>
+          <div class="toolbar__tools">
+            <a href="#">
+              <img
+              src="images/toolbar/tools.svg"
+              alt="tools-img"
+              >
+            </a>
+          </div>
+          <div class="toolbar__team">
+            <a href="#">
+              <img
+              src="images/toolbar/team.svg"
+              alt="team-img"
+              >
+            </a>
+          </div>
+          <div class="toolbar__messages">
+            <a href="#">
+              <img
+              src="images/toolbar/messages.svg"
+              alt="message-img"
+              >
+            </a>
+          </div>
+        </div>
+      </aside>
+      <section class="main">
+        <div class="nav">
+          <div class="nav__items">
+            <p class="nav__items--home">Home</p>
+            <a href="#" class="nav__items--arrow">
+              <img
+              src="images/nav/arrow.svg"
+              alt="arrow"
+              >
+            </a>
+            <p class="nav__items--network">Network</p>
+          </div>
+          <div class="nav__account">
+            <a href="#" class="nav__account--avatar">
+              <img
+              src="images/nav/avatar.svg"
+              alt="avatar"
+              >
+            </a>
+            <p class="nav__account--name">Sarah Freeman</p>
+            <a href="#" class="nav__account--dropdown-arrow">
+              <img
+              src="images/nav/dropdown-arrow.svg"
+              alt="dropdown-arrow"
+              >
+            </a>
+          </div>
+        </div>
+        <div class="border"></div>
+        <div class="chat">
+          <div class="chat__area">
+            <div class="chat__area--list list">
+              <div class="list__dialog grey-bg">
+                <a href="#" class="list__dialog--img">
+                  <img
+                  src="images/people/MirandaHops.svg"
+                  alt="avatar"
+                  >
+                </a>
+                <div>
+                  <p class="list__dialog--name online">Miranda Hops</p>
+                  <p class="list__dialog--message">Excepteur sint occaecatar...</p>
+                </div>
+                <div>
+                  <p class="list__dialog--time muted">9:32</p>
+                </div>
+              </div>
+              <div class="list__dialog grey-bg">
+                <a href="#" class="list__dialog--img">
+                  <img
+                  src="images/people/BarryCallebaut.svg"
+                  alt="avatar"
+                  >
+                </a>
+                <div>
+                  <p class="list__dialog--name">Barry Callebaut</p>
+                  <p class="list__dialog--message">Nemo enim ipsam volupta...</p>
+                </div>
+                <div>
+                  <p class="list__dialog--time">22:01</p>
+                </div>
+              </div>
+              <div class="list__dialog active">
+                <a href="#" class="list__dialog--img">
+                  <img
+                  src="images/people/StaceyDosh.svg"
+                  alt="avatar"
+                  >
+                </a>
+                <div>
+                  <p class="list__dialog--name online">Stacey Dosh</p>
+                  <p class="list__dialog--message">Ut enim ad minima veniam...</p>
+                </div>
+                <div>
+                  <span class="list__dialog--time">19:15</span>
+                </div>
+              </div>
+              <div class="list__dialog">
+                <a href="#" class="list__dialog--img">
+                  <img
+                  src="images/people/MichaelKors.svg"
+                  alt="avatar"
+                  >
+                </a>
+                <div>
+                  <p class="list__dialog--name">Michael Kors</p>
+                  <p class="list__dialog--message">To take a trivial example...</p>
+                </div>
+                <div>
+                  <span class="list__dialog--time">13:49</span>
+                </div>
+              </div>
+              <div class="list__dialog">
+                <a href="#" class="list__dialog--img">
+                  <img
+                  src="images/people/JohnyCash.svg"
+                  alt="avatar"
+                  >
+                </a>
+                <div>
+                  <p class="list__dialog--name online">Johny Cash</p>
+                  <p class="list__dialog--message">Great explorer of truth...</p>
+                </div>
+                <div>
+                  <span class="list__dialog--time">10:25</span>
+                </div>
+              </div>
+              <div class="list__dialog">
+                <a href="#" class="list__dialog--img">
+                  <img
+                  src="images/people/StaceyDosh2.svg"
+                  alt="avatar"
+                  >
+                </a>
+                <div>
+                  <p class="list__dialog--name">Stacey Dosh</p>
+                  <p class="list__dialog--message">Ut enim ad minima veniam...</p>
+                </div>
+                <div>
+                  <span class="list__dialog--time">08:53</span>
+                </div>
+              </div>
+            </div>
+            <div class="chat__area--border"></div>
+            <div class="chat__area--content content">
+              <div class="content__search">
+                <a href="#" class="content__search--img">
+                  <img
+                  src="images/search.svg"
+                  alt="search-img"
+                  >
+                </a>
+                <p class="content__search--text">Search message...</p>
+              </div>
+              <div class="content__border"></div>
+              <p class="content__hidden">Today, 17.03.2018</p>
+              <div class="content__conversation conversation">
+                <div class="conversation__messages">
+                  <div class="conversation__message-first">
+                    <a href="#">
+                      <img
+                      src="images/people/StaceyDosh.svg"
+                      alt="avatar"
+                      >
+                    </a>
+                    <div class="conversation__message--figure">
+                      <img
+                      src="images/figure.svg"
+                      alt="figure"
+                      >
+                    </div>
+                    <div class="conversation__message--bg">
+                      <p class="conversation__message--text">On the other hand, we denounce with righteous indignation! </p>
+                      <p class="conversation__message--time">01:14</p>
+                    </div>
+
+                  </div>
+                  <div class="conversation__message-second">
+                    <p class="conversation__message--text">Which is the same as saying?</p>
+                    <p class="conversation__message--time time-second">01:38</p>
+                    <div class="conversation__message--figure figure2">
+                      <img
+                      src="images/figure2.svg"
+                      alt="figure"
+                      >
+                    </div>
+                  </div>
+                  <div class="conversation__message-third">
+                    <a href="#" class="conversation__message--img">
+                      <img
+                      src="images/people/StaceyDosh.svg"
+                      alt="avatar"
+                      >
+                    </a>
+                    <div class="conversation__message--bg bg-third">
+                      <p class="conversation__message--text text-third">But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures </p>
+                      <p class="conversation__message--time time-third">01:14</p>
+                    </div>
+                  </div>
+                  <div class="conversation__message-four">
+                    <p class="conversation__message--text text-four">To take a trivial example, which of us<br> ever undertakes)</p>
+                    <p class="conversation__message--time time-four">01:38</p>
+                    <div class="conversation__message--figure figure3">
+                      <img
+                      src="images/figure2.svg"
+                      alt="figure"
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="conversation__scroll">
+                  <a href="#">
+                    <img
+                    src="./images/scroll.svg"
+                    alt="scroll-img"
+                    >
+                    <img
+                    class="conversation__scroll--btn"
+                    src="images/scroll-button.svg"
+                    alt="scroll-button-img"
+                    >
+                  </a>
+                </div>
+              </div>
+              <div class="input">
+                <p class="input__text">Write a message…</p>
+                <a href="#">
+                  <img
+                  class="input__smiles"
+                  src="./images/smiling-emoticon-square-face@2x.svg"
+                  alt="smiling-emoticon-square-face"
+                  >
+                </a>
+                <a href="#">
+                  <img
+                   class="input__clip"
+                   src="images/clip@2x.svg"
+                   alt="clip-img"
+                   >
+                </a>
+                <div class="input__send">
+                  <a href="#">
+                    <img
+                    class="input__send--btn"
+                    src="images/send-message-button@2x.svg"
+                    alt="send-message-button-img"
+                    >
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </article>
+
+
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

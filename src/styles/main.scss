@@ -1,7 +1,37 @@
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "aside";
+@import "toolbar";
+@import "nav";
+@import "chat";
+@import "list";
+@import "content";
+@import "conversation";
+@import "input";
 
 body {
-  background: $c-gray;
+  background: grey;
+}
+
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.window {
+  display: flex;
+  width: 1024px;
+  height: 766px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.border {
+  width: 942px;
+  border: 1px solid #dae4f2;
 }

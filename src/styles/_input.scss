@@ -1,0 +1,48 @@
+.input {
+  display: flex;
+  align-items: center;
+  width: 553px;
+  height: 61px;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(153, 163, 174, 0.15);
+
+  &__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #252f48;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    margin-left: 31px;
+  }
+
+  &__smiles {
+    margin-left: 255px;
+  }
+
+  &__clip {
+    margin-left: 25.53px;
+  }
+
+  &__smiles,
+  &__clip {
+    width: 18px;
+    height: 18px;
+  }
+
+  &__send {
+    width: 36px;
+    height: 36.5px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(153, 163, 174, 0.26);
+    border-radius: 7px;
+    margin-left: 30px;
+  }
+
+  &__send--btn {
+    width: 20px;
+    height: 20.8px;
+    transform: translate(40%, 40%);
+  }
+}

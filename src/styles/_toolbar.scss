@@ -1,0 +1,22 @@
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__calendar,
+  &__profile,
+  &__tools,
+  &__team {
+    margin-bottom: 50px;
+  }
+
+  &__calendar--img {
+    position: relative;
+  }
+
+  &__calendar--notification {
+    position: absolute;
+    left: 41px;
+    top: 118px;
+  }
+}

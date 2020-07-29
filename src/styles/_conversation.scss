@@ -1,0 +1,123 @@
+.conversation {
+  display: flex;
+
+  &__scroll {
+    margin-left: 18px;
+    position: relative;
+  }
+
+  &__scroll--btn {
+    position: absolute;
+    top: 305px;
+    left: 1px;
+  }
+
+  &__messages {
+    display: flex;
+    flex-direction: column;
+    margin-top: 91.76px;
+  }
+
+  &__message-first,
+  &__message-third {
+    display: flex;
+    margin-left: 21px;
+  }
+
+  &__message--bg {
+    display: flex;
+    width: 300px;
+    height: 60px;
+    background: #f7f9fc;
+    border-radius: 5px;
+    margin-left: 11px;
+    margin-top: -7px;
+  }
+
+  &__message--text {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222428;
+    margin-left: 14px;
+    margin-top: 11px;
+  }
+
+  &__message--time {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.43px;
+    color: #9ba0ad;
+    margin-top: 32px;
+    margin-right: 12px;
+  }
+
+  &__message--figure {
+    margin-top: 38.5px;
+    margin-left: -10px;
+    margin-right: -22px;
+  }
+
+  &__message-second,
+  &__message-four {
+    display: flex;
+    background: #f7f9fc;
+    margin-left: 208px;
+    margin-top: 19.35px;
+  }
+
+  &__message-second {
+    width: 300px;
+    height: 44.61px;
+  }
+
+  &__message-four {
+    width: 314px;
+    height: 64.29px;
+  }
+
+  &__message-third {
+    margin-top: 30px;
+    align-items: flex-end;
+  }
+
+  &__message--img {
+    margin-bottom: -9px;
+  }
+}
+
+.figure2 {
+  margin-top: 30px;
+}
+
+.figure3 {
+  margin-top: 50px;
+  margin-left: -7px;
+}
+
+.time-second {
+  margin-top: 15px;
+  margin-left: 80px;
+}
+
+.bg-third {
+  height: 100px;
+}
+
+.time-third {
+  margin-top: 85.56px;
+}
+
+.text-third {
+  margin-top: 20.27px;
+}
+
+.text-four {
+  line-height: 20px;
+}
+
+.time-four {
+  margin-top: 36.52px;
+  margin-left: 45px;
+}

@@ -1,0 +1,28 @@
+.chat {
+  width: 944px;
+  height: 703px;
+  background: #f9fafc;
+
+  &__area {
+    width: 854px;
+    height: 556px;
+    margin: 42px 46px 104px 44px;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(153, 163, 174, 0.06);
+    border-radius: 4px;
+    display: flex;
+  }
+
+  &__area--list {
+    width: 300px;
+  }
+
+  &__area--content {
+    width: 553px;
+  }
+
+  &__area--border {
+    border: 1px solid #edf0f4;
+    transform: rotate(180deg);
+  }
+}
